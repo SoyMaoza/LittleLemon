@@ -1,0 +1,123 @@
+body {
+    background: rgb(255, 246, 144);
+    margin: 0;
+    padding: 0;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+nav {
+    display: flex;
+    width: 1200px;
+    background: green;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    gap: 20px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.banner-promo>article {
+    background: url(./img/Pizza.jpeg);
+    height: 300px;
+}
+
+.banner-promo {
+    margin-bottom: 50px;
+}
+
+.banner-promo article>h1 {
+    color: yellow;
+    font-size: 36px;
+}
+
+.banner-promo article>p {
+    color: white;
+    font-size: 28px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 30px;
+    margin: auto;
+}
+
+article {
+    flex: 1;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 10px;
+    transition:0.3s;
+}
+
+article button {
+    border: none;
+    background: green;
+    border-radius: 50px;
+    color: white;
+    height: 30px;
+    width: 80%;
+
+}
+
+article p {
+    font-size: 18px;
+}
+
+article img {
+    width: 400px;
+    height: 400px;
+}
+
+nav li:hover {
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+footer div{
+    flex: 1;
+}
+footer div img{
+    width: 60px;
+}
+div hr{
+    height: 5px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+article:hover{
+    transform: scale(1.03);
+}
+article button:hover{
+    cursor: pointer;
+}
